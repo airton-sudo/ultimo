@@ -22,12 +22,12 @@ export default function NewLoja({
     }
     return (
         <div>
-            <h1 className="text-white text-center text-4xl">Cadastrar Produto</h1>
+            <h1 className="text-black text-center text-4xl">Cadastrar Produto</h1>
             <form>
                 <input type="text" name="product" placeholder="Digite o nome do produto"/><br/><br/>
                 <input type="text" name="value" placeholder="Digite o valor do produto"/> <br/><br/>
                 <br/>
-                <button formAction={saveLoja} className="text-white">Salvar</button>
+                <button formAction={saveLoja} className="text-black">Salvar</button>
             </form>
         </div>
 
