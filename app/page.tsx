@@ -1,5 +1,8 @@
 export default function Home() {
   return (
-    <h1>ola mundo </h1>
+    <div>
+      <h1 className='text-center'>Minha Avaliação Substitutiva</h1>
+      
+    </div>
   )
 }
